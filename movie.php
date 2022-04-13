@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "root";
 $password = "";
-$database = "movprofile";
+$database = "movprofile";                  // you can change the database name accordingly and make sure to change in create table query too 
 
 $conn = mysqli_connect($server, $username, $password, $database);
 if (!$conn){
